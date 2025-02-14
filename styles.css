@@ -41,6 +41,20 @@ body {
     }
 }
 
+.profile-pic {
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%; 
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    background-color: black;
+    padding: 5px; 
+    object-fit: cover;
+}
+
 header {
     background: #333;
     color: #fff;
@@ -65,20 +79,6 @@ header h1 {
 
 header p {
     margin: 5px 0;
-}
-
-.profile-pic {
-    width: 300px; 
-    height: 300px;
-    border-radius: 50%; 
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    border: 3px solid #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
-    background-color: black;
-    padding: 5px; 
-    object-fit: cover;
 }
 
 nav ul {
