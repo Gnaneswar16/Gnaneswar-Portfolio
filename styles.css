@@ -297,7 +297,7 @@ footer p {
     background-color: #1f1f1f;
 }
 
-.dark-mode .about-content, .dark-mode .skill, .dark-mode .project, .dark-mode .certification, .dark-mode .contact-info {
+.dark-mode .about-content, .dark-mode .skill, .dark-mode .project, .dark-mode .certification, .dark-mode .activity, .dark-mode .contact-info {
     background-color: #1f1f1f;
     color: #ffffff;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
