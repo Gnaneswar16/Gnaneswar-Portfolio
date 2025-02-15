@@ -42,36 +42,31 @@ body {
 }
 
 .profile-pic {
-    width: 300px; 
-    height: 300px;
+    width: 100px; 
+    height: 100px;
     border-radius: 50%; 
     position: absolute;
     top: 20px;
     right: 20px;
-    border: 3px solid #fff;
+    border: 3px solid #fff; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
-    background-color: black;
+    background-color: #333; 
     padding: 5px; 
-    object-fit: cover;
+    object-fit: cover; 
 }
 
-@media screen and (max-width: 768px) {
+/* Responsive Fix for Mobile */
+@media (max-width: 768px) {
     .profile-pic {
-        width: 200px;  
-        height: 200px; 
-        padding: 10px; 
-        top: 10px;     
-        right: 10px;   
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .profile-pic {
-        width: 150px;  
-        height: 150px;
-        padding: 5px;  
-        top: 10px;
+        width: 80px; 
+        height: 80px;
+        top: 10px; 
         right: 10px;
+    }
+
+    header {
+        text-align: center;
+        padding-top: 100px; 
     }
 }
 
