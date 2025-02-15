@@ -42,8 +42,8 @@ body {
 }
 
 .profile-pic {
-    width: 100px; 
-    height: 100px;
+    width: 200px; 
+    height: 200px;
     border-radius: 50%; 
     position: absolute;
     top: 20px;
@@ -293,7 +293,7 @@ footer p {
 }
 
 .dark-mode .about-content, .dark-mode .skill, .dark-mode .project, .dark-mode .certification, .dark-mode .activity, .dark-mode .contact-info {
-    background-color: #1f1f1f;
+    background-color: #2f2f2f;
     color: #ffffff;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
